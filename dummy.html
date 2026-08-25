@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FECEB3",
+                        secondary: "#6C5ABE",
+                        hover: "#D94A3A",
+                        para: "#333634",
+
+                        gradientStart: "#5B5FEF",
+                        gradientEnd: "#10B981",
+
+                        para_light: "#5E625F",
+                        border: "#E8E7E3",
+
+                        btnPrimary: "#2563EB",
+                        btnHover: "#48EBFA",
+
+                        heading: "#172033",
+                        light_coral: "#FFD9D2"
+                    },
+
+                    fontFamily: {
+                        poppins: ['poppins', 'sans-serif'],
+                        inter: ['Inter', 'sans-serif'],
+                        oswald: ['Oswald', 'sans-serif'],
+                        roboto: ['roboto', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="w-full main">
+<div class="w-full h-[600px] relative z-20">
+    <img class="w-full h-full" src="images/background-hero.png">
+    <div class="grid grid-cols-2 absolute inset-0 h-full z-10">
+        <div class="content w-full mt-10 ml-14">
+               <div class="contenet-main container ">
+                    <h1 class="text-6xl/[70px] font-bold font-heading font-poppins mt-8">Your day,
+                        <br><span class="bg-gradient-to-r from-[#9B83E8] to-[#D9776C] bg-clip-text text-transparent">
+                            Designed
+                        </span>
+                        <br>around you.
+                    </h1>
+                    <p class="text-[20px] text=para font-medium font-inter mt-5">Discover simple moments, spaces and routines
+                        <br>that match how you want to feel.
+                    </p>
+                    
+                    <div class="button-part flex gap-4 mt-10">
+                        <div class="primary-btn">
+                            <a class="text-[16px] text-white px-3 py-1 bg-black rounded-2xl font-medium inline-flex items-center gap-3">Explore
+                                Moments<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <div class="primary-btn">
+                            <a class="text-[16px] text-black px-3 py-1 bg-white rounded-2xl font-medium inline-flex items-center gap-3"><i
+                                    class="fa-regular fa-circle-play"></i>Watch how it work</a>
+                        </div>
+                    </div>
+               </div>
+        </div>
+        <div class="image h-[470px]  ">
+            <div class="part h-full w-full flex justify-end">
+                <img class="w-full lg:w-[80%]" src="images/background-image.png">
+                <div class="primary-btn absolute top-3 right-12 z-20">
+                    <a class="text-sm text-white px-3 py-1 bg-black rounded-2xl font-inter inline-flex items-center gap-3">Start a
+                        Moments<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+   </div>
+<div class="w-full h-[60px] bg-[#FAF8F3] absolute inset-0 z-0">
+    <div class="container mx-auto px-3 py-3  flex items-center gap-[100px]">
+        <div class="logo flex items-center gap-3">
+            <div class="logo-image size-8">
+                <img  src="images/logo.png">
+            </div>
+            <div class="name">
+                <h1 class="text-2xl font-medium font-oswald text-heading ">LUMA</h1>
+            </div>
+        </div>
+        <div class="menu-bar">
+            <ul class="flex items gap-7">
+                <li><a href="" class="text-sm text-black font-medium">Home</a></li>
+                <li><a href=""
+                        class="text-sm text-[#5E625F] hover:text-black transition-all duration-300 ease">Discover</a>
+                </li>
+                <li><a href=""
+                        class="text-sm text-[#5E625F] hover:text-black transition-all duration-300 ease">Build a
+                        Moment</a></li>
+                <li><a href=""
+                        class="text-sm text-[#5E625F] hover:text-black transition-all duration-300 ease">Space</a>
+                </li>
+                <li><a href=""
+                        class="text-sm text-[#5E625F] hover:text-black transition-all duration-300 ease">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
