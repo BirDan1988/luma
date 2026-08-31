@@ -47,9 +47,7 @@
     </script>
 </head>
 <body>
-
-<div class="w-full main">
-        <div class="w-full h-[50px] lg:h-[60px] bg-[#FAF8F3] relative lg:absolute left-0 top-0 z-10">
+    <div class="w-full h-[50px] lg:h-[60px] bg-[#FAF8F3] ">
             <div class="container mx-auto px-3 py-3  flex items-center justify-between">
                 <div class="logo flex items-center gap-3">
                     <div class="logo-image size-6 lg:size-8">
@@ -59,7 +57,7 @@
                         <h1 class= " sm:text-xl lg:text-2xl font-medium font-oswald text-heading ">LUMA</h1>
                     </div>
                 </div>
-                <div class="menu-bar hidden lg:flex">
+                <div class="menu-bar hidden lg:flex mr-[100px]">
                     <ul class="flex items gap-7">
                        
                         <li><a href="dummy.html#123"
@@ -75,26 +73,29 @@
                         </li>
                     </ul>
                 </div>
-                <div class="primary-btn flex items-center gap-4">
+                <div class="primary-btn flex items-center gap-6">
                     <a class="text-sm lg:text-sm text-white px-3 py-1 bg-black rounded-2xl font-inter hidden sm:inline-flex items-center gap-3">Start a
                         Moments<i class="fa-solid fa-arrow-right"></i></a>
-                        <i class="fa-solid fa-bars flex lg:hidden text-lg"></i>
+                        <i class="fa-solid fa-bars  text-lg"></i>
                 </div>
             </div>
         </div>
-<div class="w-full  sm:h-[340px]  md:h-[500px] lg:h-[600px] relative z-10">
+
+<div class="w-full main">
+        
+<div class="w-full  sm:h-[340px]  md:h-[420px] lg:h-[600px] relative z-10">
 
     <img class="w-full hidden sm:block h-full " src="images/newbg.png">
-    <div class="container mx-auto px-3 grid grid-cols-1 sm:grid-cols-2 relative sm:absolute inset-0 ">
-        <div class="content w-full  order-2 sm:order-1 flex items-center">
+    <div class="container mx-auto px-3 grid grid-cols-1 sm:grid-cols-2 relative sm:absolute inset-0 h-full ">
+        <div class="content w-full   order-2 sm:order-1 flex items-center sm:mt-0 lg:mt-[-80px] xl:mt-[-100px] mt-5 md:mt-0">
                <div class="contenet-main container ">
-                    <h1 class="text-[26px] sm:text-4xl/[40px] md:text-5xl/[50px] lg:text-6xl/[70px] font-bold font-heading font-poppins mt-6 lg:mt-8">Your day,
+                    <h1 class="text-[26px]/[30px] sm:text-4xl/[40px] md:text-5xl/[50px] lg:text-6xl/[70px] font-bold font-heading font-poppins">Your day,
                         <br class="hidden sm:block"><span class="bg-gradient-to-r from-[#9B83E8] to-[#D9776C] bg-clip-text text-transparent">
                             Designed
                         </span>
                         <br class="hidden sm:block">around you.
                     </h1>
-                    <p class= "text-sm sm:text-[16px] lg:text-[20px] text=para font-medium font-inter mt-5">Discover simple moments, spaces and routines
+                    <p class= "text-sm sm:text-[16px] lg:text-[20px]/[25px] text-para font-medium font-inter mt-5">Discover simple moments, spaces and routines
                         <br class="md:block hidden">that match how you want to feel.
                     </p>
                     
@@ -110,10 +111,10 @@
                     </div>
                </div>
         </div>
-        <div class="image h-[300px] sm:h-[340px] md:h-[500px]  lg:h-[600px] order-1 sm:order-2 relative z-30">
+        <div class="image h-[300px] sm:h-[340px] md:h-[420px]  lg:h-[680px] order-1 sm:order-2 relative z-30 ">
             <div class="part h-full w-full flex justify-end">
-                <img class="w-full h-full " src="images/background-image.png">
-                <div class="primary-btn lg:block hidden absolute top-3.5 right-6 z-20">
+                <img class="w-full h-full  lg:absolute top-[-80px] left-0 right-0 z-10 pointer-events-none" src="images/background-image.png">
+                <div class="primary-btn lg:block hidden absolute top-[-40px] right-6 z-20">
                     <a class="text-sm text-white px-3 py-1 bg-black rounded-2xl font-inter inline-flex items-center gap-3 group hover:shadow-xl">Start a
                         Moments<i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-all duration-300 ease"></i></a>
                 </div>
@@ -149,7 +150,7 @@
                         </p>
                     </div>
                     <div class="image w-full relative">
-                        <img class="w-full object-cover block" src="images/shape-1.png">
+                        <img class="w-full  block" src="images/shape-1.png">
                         <i
                             class="fa-solid fa-arrow-right text-2xl absolute right-6 bottom-3 text-[#240E85] group-hover:translate-x-1 transition-all duration-300 ease"></i>
                     </div>
@@ -231,10 +232,10 @@
         <div
             class="grid grid-cols-1 lg:grid-cols-2 rounded-xl overflow-hidden border border-gray-200 hover:border-secondary">
             <div class="feature-image overflow-hidden">
-                <img class=" w-full hover:scale-110 transition-all duration-300 ease" src="images/image-1.png">
+                <img class=" w-full h-full hover:scale-110 transition-all duration-300 ease" src="images/image-1.png">
             </div>
             <div class="feature-content relative flex items-center">
-                <img class="absolute inset-0 w-full h-full" src="images/feature-background.png">
+                <img class="absolute inset-0 w-full h-full " src="images/feature-background.png">
                 <div class="content-main relative z-10 px-3 py-4">
                     <div class="box">
                         <span
